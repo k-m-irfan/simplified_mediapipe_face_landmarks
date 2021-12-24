@@ -3,7 +3,7 @@ Extracts essential Mediapipe face landmarks and arranges them in a sequenced ord
 
 The default Mediapipe face landmarks are scattered randomly all over the place and makes it difficult to isolate specific parts of the face. The mpFaceSimplified.py library returns landmarks of left eyebrow → right eyebrow → left eye → right eye → inner lip → outer lip → face boundary, in a sequence, making it easier to isolate these parts.
 
-# Original Landmarks from Mediapipe face_mesh
+## Original Landmarks from Mediapipe face_mesh
 
   Left Eyebrow = [70,63,105,66,107,55,65,52,53,46]
   Right Eyebrow = [300,293,334,296,336,285,295,282,283,276]
