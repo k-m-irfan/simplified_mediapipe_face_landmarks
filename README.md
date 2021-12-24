@@ -5,7 +5,7 @@ The default Mediapipe face landmarks are scattered randomly all over the place a
 
 ## Original Landmarks from Mediapipe face_mesh
 
-  - Left Eyebrow = [70,63,105,66,107,55,65,52,53,46]
+  * Left Eyebrow = [70,63,105,66,107,55,65,52,53,46]
   - Right Eyebrow = [300,293,334,296,336,285,295,282,283,276]
   - Left Eye = [33,246,161,160,159,158,157,173,133,155,154,153,145,144,163,7]
   - Right Eye = [263,466,388,387,386,385,384,398,362,382,381,380,374,373,390,249]
