@@ -24,7 +24,6 @@
 # Left iris (128->132)
 # Right iris (133->137)
 
-
 class mpFace:
     import mediapipe as mp
     import cv2
