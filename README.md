@@ -16,7 +16,6 @@ The default Mediapipe face landmarks are scattered randomly all over the place a
   - **Right iris** = [473,474,475,476,477]
 
 ![originalLandmarks](https://user-images.githubusercontent.com/80172338/147330227-97fbf8bd-dd73-4d5d-b98b-3ac2489c1759.jpg)
-
 ## Simplified Landmarks after sequencing
 
   - **Left Eyebrow** = [0->9]
