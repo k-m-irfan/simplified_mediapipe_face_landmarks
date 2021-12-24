@@ -17,7 +17,6 @@ The default 478 Mediapipe face landmarks are scattered randomly all over the pla
 \
 \
 \
-\
 ![originalLandmarks](https://user-images.githubusercontent.com/80172338/147330227-97fbf8bd-dd73-4d5d-b98b-3ac2489c1759.jpg)
 
 ## Simplified Landmarks after sequencing
@@ -31,7 +30,6 @@ The default 478 Mediapipe face landmarks are scattered randomly all over the pla
   - **Face Boundary** = [92->127]
   - **Left iris** = [128->132]
   - **Right iris** = [133->137]
-\
 \
 \
 \
