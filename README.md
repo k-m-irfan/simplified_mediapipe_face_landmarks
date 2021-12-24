@@ -35,4 +35,4 @@ The default 478 Mediapipe face landmarks are scattered randomly all over the pla
 \
 ![simplifiedLandmarks](https://user-images.githubusercontent.com/80172338/147331993-067d58da-1b97-4caf-935c-35fb06aaad34.jpg)
 
-## Keep mpFaceSimplified.py and exampleProgram.py, and run “exampleProgram.py” to try it out.
+###### Keep mpFaceSimplified.py and exampleProgram.py, and run “exampleProgram.py” to try it out.
