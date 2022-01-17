@@ -42,3 +42,8 @@ https://user-images.githubusercontent.com/80172338/149782639-29aa195b-e019-4055-
 ![simplifiedLandmarks](https://user-images.githubusercontent.com/80172338/147331993-067d58da-1b97-4caf-935c-35fb06aaad34.jpg)
 
 **Keep 'mpFaceSimplified.py' and 'exampleProgram.py' in the same folder and then run 'exampleProgram.py' to try it out.**
+## Environment
+
+- python version 3.9.7
+- opncv-python version 4.5.4.60
+- mediapipe version 0.8.9.1
