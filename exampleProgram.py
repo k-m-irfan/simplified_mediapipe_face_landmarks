@@ -45,7 +45,8 @@ while True:
     #     for lm in face:
     #         cv2.circle(frame,lm,radius,green,-1)
     for face in faces:
-        for indx in range(0,138):# Total Landmarks = 138
+        #print(len(face))
+        for indx in range(0,len(face)):# Total Landmarks = 141
             cv2.circle(frame,face[indx],radius,red,-1)
         
         connectPoints(0,10)#Left Eyebrow (0->9)
