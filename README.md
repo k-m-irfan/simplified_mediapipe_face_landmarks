@@ -1,7 +1,7 @@
 # simplified_mediapipe_face_landmarks
 Extracts essential Mediapipe face landmarks and arranges them in a sequenced order.
 
-The default 478 Mediapipe face landmarks are scattered randomly all over the place and makes it difficult to isolate specific parts of the face. This mpFaceSimplified.py module returns 138 landmarks of left eyebrow → right eyebrow → left eye → right eye → inner lip → outer lip → face boundary → left iris → right iris, in a sequence, making it easier to isolate these parts.
+The default 478 Mediapipe face landmarks are scattered randomly all over the place and makes it difficult to isolate specific parts of the face. This mpFaceSimplified.py module returns 141 landmarks of left eyebrow → right eyebrow → left eye → right eye → inner lip → outer lip → face boundary → left iris → right iris → nose, in a sequence, making it easier to isolate these parts.
 
 
 
@@ -20,6 +20,7 @@ https://user-images.githubusercontent.com/80172338/149782639-29aa195b-e019-4055-
   - **Face Boundary** = [10,338,297,332,284,251,389,356,454,323,361,288,397,365,379,378,400,377,152,148,176,149,150,136,172,58,132,93,234,127,162,21,54,103,67,109]
   - **Left iris** = [468,469,470,471,472]
   - **Right iris** = [473,474,475,476,477]
+  - **Nose** = [64,4,294]
 \
 \
 \
@@ -36,10 +37,11 @@ https://user-images.githubusercontent.com/80172338/149782639-29aa195b-e019-4055-
   - **Face Boundary** = [92->127]
   - **Left iris** = [128->132]
   - **Right iris** = [133->137]
+  - **Nose** = [138->140]
 \
 \
 \
-![simplifiedLandmarks](https://user-images.githubusercontent.com/80172338/147331993-067d58da-1b97-4caf-935c-35fb06aaad34.jpg)
+![simplifiedLandmarks](https://user-images.githubusercontent.com/80172338/150638518-9c90bd3f-35e5-4fe9-90d0-c61a8888871e.jpg)
 
 **Keep 'mpFaceSimplified.py' and 'exampleProgram.py' in the same folder and then run 'exampleProgram.py' to try it out.**
 ## Environment
