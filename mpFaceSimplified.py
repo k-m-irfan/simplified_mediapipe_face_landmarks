@@ -54,7 +54,7 @@ class mpFace:
         if results.multi_face_landmarks != None:
             for faceLandmarks in results.multi_face_landmarks:
                 for lm in faceLandmarks.landmark:
-                    myFaceLandmarks.append((int(lm.x*self.width),int(lm.y*self.height)))
+                    myFaceLandmarks.append((int(lm.x*self.width),int(lm.y*self.height),int(lm.z*self.width)))
 
                 myFacesLandmarks.append(myFaceLandmarks)            
         return myFacesLandmarks
@@ -73,7 +73,7 @@ class mpFace:
             for faceLandmarks in results.multi_face_landmarks:
                 for lm,indx in zip(faceLandmarks.landmark,range(len(faceLandmarks.landmark))):
                     if indx in points:#only collect required landmarks
-                        myFaceLandmarksSimplified.append((int(lm.x*self.width),int(lm.y*self.height)))
+                        myFaceLandmarksSimplified.append((int(lm.x*self.width),int(lm.y*self.height),int(lm.z*self.width)))
                         myIndex.append(points.index(indx))#for rearranging the points, collect sequenced index
                     for i,indx in zip(range(len(points)),myIndex):
                         myFaceLandmarksRearranged[indx] = myFaceLandmarksSimplified[i]#rearranging according to sequenced index
